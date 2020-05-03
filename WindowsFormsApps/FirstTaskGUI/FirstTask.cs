@@ -5,7 +5,7 @@ namespace WindowsFormsApps
 {
     public partial class FirstTask : Form
     {
-        public FirstTask()//
+        public FirstTask()
         {
             InitializeComponent();
         }
