@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApps.SecondTaskGUI;
 
 namespace WindowsFormsApps
 {
@@ -16,7 +17,9 @@ namespace WindowsFormsApps
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FirstTask());
+            //Application.Run(new FirstTask());
+            //Application.Run(new SecondTaskCoordinate());
+            Application.Run(new OtherTasks());
         }
     }
 }
