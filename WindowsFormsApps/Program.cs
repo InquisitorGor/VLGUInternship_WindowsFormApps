@@ -17,8 +17,8 @@ namespace WindowsFormsApps
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FirstTask());
-            //Application.Run(new SecondTaskCoordinate());
+            Application.Run(new FirstTask());
+            Application.Run(new SecondTaskCoordinate());
             Application.Run(new OtherTasks());
         }
     }
