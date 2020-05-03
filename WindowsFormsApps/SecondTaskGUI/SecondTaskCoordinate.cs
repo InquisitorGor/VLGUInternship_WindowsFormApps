@@ -18,7 +18,7 @@ namespace WindowsFormsApps
         private void drawButtonListener(object sender, EventArgs e)
         {
             
-            if(textBox1.Text != "")
+            if(textBox1.Text != "" && isValueTypeValid(textBox1.Text))
             drawCoordinatePlane(textBox1.Text,textBox2.Text);
         }
         private void drawCoordinatePlane(String X, String Y)
@@ -88,6 +88,18 @@ namespace WindowsFormsApps
             pictureBox.Image = btm;
             
 
+        }
+        private bool isValueTypeValid(String str)
+        {
+            char[] chArr = str.ToCharArray();
+            for (int i = 0; i < chArr.Length; i++)
+            {
+                if (!(chArr[i] >= '0' && chArr[i] <= '9') && chArr[i] != '-')
+                {
+                    return false;
+                }
+            }
+            return true;
         }
         private static String getResult(float x, float y)
         {
