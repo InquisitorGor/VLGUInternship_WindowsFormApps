@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApps.FourthTaskGUI;
 using WindowsFormsApps.SecondTaskGUI;
 using WindowsFormsApps.ThirdTaskGUI;
 
@@ -21,7 +22,8 @@ namespace WindowsFormsApps
             //Application.Run(new FirstTask());
             //Application.Run(new SecondTaskCoordinate());
             //Application.Run(new OtherTasks());
-            Application.Run(new ThirdTask());
+            //Application.Run(new ThirdTask());
+            Application.Run(new FourthTask());
         }
     }
 }
