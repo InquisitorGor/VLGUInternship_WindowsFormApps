@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApps.FourthTaskGUI;
 using WindowsFormsApps.SecondTaskGUI;
+using WindowsFormsApps.SixthTaskGUI;
 using WindowsFormsApps.ThirdTaskGUI;
 
 namespace WindowsFormsApps
@@ -23,7 +24,8 @@ namespace WindowsFormsApps
             //Application.Run(new SecondTaskCoordinate());
             //Application.Run(new OtherTasks());
             //Application.Run(new ThirdTask());
-            Application.Run(new FourthTask());
+            //Application.Run(new FourthTask());
+            Application.Run(new SixthTask());
         }
     }
 }

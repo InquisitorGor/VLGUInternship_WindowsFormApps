@@ -72,6 +72,12 @@
     <Compile Include="SecondTaskGUI\SecondTaskCoordinate.Designer.cs">
       <DependentUpon>SecondTaskCoordinate.cs</DependentUpon>
     </Compile>
+    <Compile Include="SixthTaskGUI\SixthTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SixthTaskGUI\SixthTask.Designer.cs">
+      <DependentUpon>SixthTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThirdTaskGUI\ThirdTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SecondTaskGUI\SecondTaskCoordinate.resx">
       <DependentUpon>SecondTaskCoordinate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SixthTaskGUI\SixthTask.resx">
+      <DependentUpon>SixthTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThirdTaskGUI\ThirdTask.resx">
       <DependentUpon>ThirdTask.cs</DependentUpon>
