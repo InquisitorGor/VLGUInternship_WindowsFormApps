@@ -131,39 +131,6 @@ namespace WindowsFormsApps.SixthTask
             }
             textBox5.Text = Convert.ToString(oneDimArray.Select(Math.Abs).Max());
         }
-        private int[,] getStrangeByOrdedArray(int lines, int columns)
-        {
-            int[,] temp = new int[lines, columns];
-            for (int i = 0; i < lines; i++)
-            {
-                for (int j = 0; j < columns; j++)
-                {
-                    temp[i, j] = 0;
-                }
-            }
-            int value = 1;
-            for (int i = 0; i < columns; i++)
-            {
-                for (int j = 0; j < lines; j++)
-                {
-                    temp[j, i] = value++;
-                }
-                if (i + 1 == columns) break;
-                temp[lines - 1, ++i] = value++;
-                if (i + 1 == columns) break;
-                ++i;
-                for (int j = lines - 1; j >= 0; j--)
-                {
-                    temp[j, i] = value++;
-                }
-                if (i + 1 == columns) break;
-                temp[0, ++i] = value++;
-                if (i + 1 == columns) break;
-
-            }
-            return temp;
-        }
-
         private void strangeOrderButtonListiner(object sender, EventArgs e)
         {
             if (textBox1.Text != "" && textBox2.Text != "")
