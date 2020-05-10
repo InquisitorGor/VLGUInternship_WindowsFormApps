@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace WindowsFormsApps.SixthTaskGUI
+namespace WindowsFormsApps.FifthTaskGUI
 {
-    public partial class SixthTask : Form
+    public partial class FifthTask : Form
     {
-        public SixthTask()
+        public FifthTask()
         {
             InitializeComponent();
         }

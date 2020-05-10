@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApps.SixthTaskGUI
+﻿namespace WindowsFormsApps.FifthTaskGUI
 {
-    partial class SixthTask
+    partial class FifthTask
     {
         /// <summary>
         /// Required designer variable.
