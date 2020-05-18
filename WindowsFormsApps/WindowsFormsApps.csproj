@@ -102,6 +102,12 @@
     <Compile Include="SixthTaskGUI\SixthTask.Designer.cs">
       <DependentUpon>SixthTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="TenthTaskGUI\TenthTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TenthTaskGUI\TenthTask.Designer.cs">
+      <DependentUpon>TenthTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThirdTaskGUI\ThirdTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SixthTaskGUI\SixthTask.resx">
       <DependentUpon>SixthTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TenthTaskGUI\TenthTask.resx">
+      <DependentUpon>TenthTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThirdTaskGUI\ThirdTask.resx">
       <DependentUpon>ThirdTask.cs</DependentUpon>
