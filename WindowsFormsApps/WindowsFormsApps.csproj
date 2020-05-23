@@ -52,6 +52,12 @@
     <Compile Include="EightTaskGUI\EightTask.Designer.cs">
       <DependentUpon>EightTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="EleventhTask\OneDimArray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EleventhTask\OneDimArray.Designer.cs">
+      <DependentUpon>OneDimArray.cs</DependentUpon>
+    </Compile>
     <Compile Include="FirstTaskGUI\FirstTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="EightTaskGUI\EightTask.resx">
       <DependentUpon>EightTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EleventhTask\OneDimArray.resx">
+      <DependentUpon>OneDimArray.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FirstTaskGUI\FirstTask.resx">
       <DependentUpon>FirstTask.cs</DependentUpon>

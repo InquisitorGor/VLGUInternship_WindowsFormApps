@@ -12,6 +12,7 @@ using WindowsFormsApps.SeventhTaskGUI;
 using WindowsFormsApps.EightTaskGUI;
 using WindowsFormsApps.NinthTaskGUI;
 using WindowsFormsApps.TenthTaskGUI;
+using WindowsFormsApps.EleventhTask;
 
 namespace WindowsFormsApps
 {
@@ -35,7 +36,8 @@ namespace WindowsFormsApps
             //Application.Run(new SevenTask());
             //Application.Run(new EightTask());
             //Application.Run(new NinthTask());
-            Application.Run(new TenthTask());
+            //Application.Run(new TenthTask());
+            Application.Run(new OneDimArray());
         }
     }
 }
