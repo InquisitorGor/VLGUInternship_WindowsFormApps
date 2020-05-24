@@ -63,5 +63,23 @@ namespace WindowsFormsApps.EleventhTask
                 oneDimArray[i] = oneDimArray[i] * Convert.ToInt32(textBox2.Text);
             showFiltredData();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < oneDimArray.Length; i++)
+            {
+                oneDimArray[i] = oneDimArray[i] + 1;
+            }
+            showFiltredData();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < oneDimArray.Length; i++)
+            {
+                oneDimArray[i] = oneDimArray[i] - 1;
+            }
+            showFiltredData();
+        }
     }
 }
