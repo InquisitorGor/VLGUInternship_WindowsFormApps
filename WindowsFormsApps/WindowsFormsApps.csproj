@@ -120,6 +120,12 @@
     <Compile Include="ThirdTaskGUI\ThirdTask.Designer.cs">
       <DependentUpon>ThirdTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThirteenthTaskGUI\ThirteenthTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirteenthTaskGUI\ThirteenthTask.Designer.cs">
+      <DependentUpon>ThirteenthTask.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EightTaskGUI\EightTask.resx">
       <DependentUpon>EightTask.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThirdTaskGUI\ThirdTask.resx">
       <DependentUpon>ThirdTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThirteenthTaskGUI\ThirteenthTask.resx">
+      <DependentUpon>ThirteenthTask.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
