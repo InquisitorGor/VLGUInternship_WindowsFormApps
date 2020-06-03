@@ -29,5 +29,10 @@ namespace WindowsFormsApps.FourteenthTaskGUI
         {
             new Resettlement().ShowDialog();
         }
+
+        private void запросToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new QueryForm().ShowDialog();
+        }
     }
 }

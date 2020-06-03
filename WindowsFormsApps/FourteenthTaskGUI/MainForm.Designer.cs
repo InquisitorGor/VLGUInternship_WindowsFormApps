@@ -38,6 +38,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
             this.расселениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripDropDownButton3 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.запросToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +49,8 @@
             this.toolStripButton1,
             this.toolStripDropDownButton1,
             this.toolStripSeparator1,
-            this.toolStripDropDownButton2});
+            this.toolStripDropDownButton2,
+            this.toolStripDropDownButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(784, 25);
@@ -78,21 +81,21 @@
             // студентыToolStripMenuItem
             // 
             this.студентыToolStripMenuItem.Name = "студентыToolStripMenuItem";
-            this.студентыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.студентыToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.студентыToolStripMenuItem.Text = "Студенты";
             this.студентыToolStripMenuItem.Click += new System.EventHandler(this.студентыToolStripMenuItem_Click);
             // 
             // комнатыToolStripMenuItem
             // 
             this.комнатыToolStripMenuItem.Name = "комнатыToolStripMenuItem";
-            this.комнатыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.комнатыToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.комнатыToolStripMenuItem.Text = "Комнаты";
             this.комнатыToolStripMenuItem.Click += new System.EventHandler(this.комнатыToolStripMenuItem_Click);
             // 
             // льготыToolStripMenuItem
             // 
             this.льготыToolStripMenuItem.Name = "льготыToolStripMenuItem";
-            this.льготыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.льготыToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.льготыToolStripMenuItem.Text = "Льготы";
             this.льготыToolStripMenuItem.Click += new System.EventHandler(this.льготыToolStripMenuItem_Click);
             // 
@@ -115,9 +118,27 @@
             // расселениеToolStripMenuItem
             // 
             this.расселениеToolStripMenuItem.Name = "расселениеToolStripMenuItem";
-            this.расселениеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.расселениеToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.расселениеToolStripMenuItem.Text = "Расселение";
             this.расселениеToolStripMenuItem.Click += new System.EventHandler(this.расселениеToolStripMenuItem_Click);
+            // 
+            // toolStripDropDownButton3
+            // 
+            this.toolStripDropDownButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.запросToolStripMenuItem});
+            this.toolStripDropDownButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton3.Image")));
+            this.toolStripDropDownButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton3.Name = "toolStripDropDownButton3";
+            this.toolStripDropDownButton3.Size = new System.Drawing.Size(69, 22);
+            this.toolStripDropDownButton3.Text = "Запросы";
+            // 
+            // запросToolStripMenuItem
+            // 
+            this.запросToolStripMenuItem.Name = "запросToolStripMenuItem";
+            this.запросToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.запросToolStripMenuItem.Text = "Запрос";
+            this.запросToolStripMenuItem.Click += new System.EventHandler(this.запросToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -145,5 +166,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton2;
         private System.Windows.Forms.ToolStripMenuItem расселениеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton3;
+        private System.Windows.Forms.ToolStripMenuItem запросToolStripMenuItem;
     }
 }

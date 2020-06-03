@@ -67,6 +67,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DBDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EightTaskGUI\EightTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +106,12 @@
     </Compile>
     <Compile Include="FourteenthTaskGUI\Priviledges.Designer.cs">
       <DependentUpon>Priviledges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\QueryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\QueryForm.Designer.cs">
+      <DependentUpon>QueryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FourteenthTaskGUI\Resettlement.cs">
       <SubType>Form</SubType>
@@ -192,6 +208,9 @@
     <EmbeddedResource Include="FourteenthTaskGUI\Priviledges.resx">
       <DependentUpon>Priviledges.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\QueryForm.resx">
+      <DependentUpon>QueryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FourteenthTaskGUI\Resettlement.resx">
       <DependentUpon>Resettlement.cs</DependentUpon>
     </EmbeddedResource>
@@ -286,6 +305,28 @@
     </None>
     <None Include="DBDataSet3.xss">
       <DependentUpon>DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet4.xsc">
+      <DependentUpon>DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet4.xss">
+      <DependentUpon>DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet5.xsc">
+      <DependentUpon>DBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet5.xss">
+      <DependentUpon>DBDataSet5.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
