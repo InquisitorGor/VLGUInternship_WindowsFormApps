@@ -46,6 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="DBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EightTaskGUI\EightTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +84,36 @@
     </Compile>
     <Compile Include="FirstTaskGUI\FirstTask.Designer.cs">
       <DependentUpon>FirstTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Priviledges.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Priviledges.Designer.cs">
+      <DependentUpon>Priviledges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Resettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Resettlement.Designer.cs">
+      <DependentUpon>Resettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Rooms.Designer.cs">
+      <DependentUpon>Rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenthTaskGUI\Students.Designer.cs">
+      <DependentUpon>Students.cs</DependentUpon>
     </Compile>
     <Compile Include="FourthTaskGUI\FourthTask.cs">
       <SubType>Form</SubType>
@@ -135,6 +186,21 @@
     <EmbeddedResource Include="FirstTaskGUI\FirstTask.resx">
       <DependentUpon>FirstTask.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\Priviledges.resx">
+      <DependentUpon>Priviledges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\Resettlement.resx">
+      <DependentUpon>Resettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\Rooms.resx">
+      <DependentUpon>Rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourteenthTaskGUI\Students.resx">
+      <DependentUpon>Students.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FourthTaskGUI\FourthTask.resx">
       <DependentUpon>FourthTask.cs</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +240,53 @@
     <EmbeddedResource Include="ThirteenthTaskGUI\ThirteenthTask.resx">
       <DependentUpon>ThirteenthTask.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DBDataSet.xsc">
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DBDataSet.xss">
+      <DependentUpon>DBDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DBDataSet1.xsc">
+      <DependentUpon>DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet1.xss">
+      <DependentUpon>DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet2.xsc">
+      <DependentUpon>DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet2.xss">
+      <DependentUpon>DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet3.xsc">
+      <DependentUpon>DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBDataSet3.xss">
+      <DependentUpon>DBDataSet3.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
