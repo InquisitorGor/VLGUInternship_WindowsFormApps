@@ -34,5 +34,10 @@ namespace WindowsFormsApps.FourteenthTaskGUI
         {
             new QueryForm().ShowDialog();
         }
+
+        private void отчетToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Report().ShowDialog();
+        }
     }
 }
