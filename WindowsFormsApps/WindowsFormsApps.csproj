@@ -200,6 +200,12 @@
     <Compile Include="SeventeenthTaskGUI\CatalogTreeViewForm.Designer.cs">
       <DependentUpon>CatalogTreeViewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\ColorDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\ColorDialogForm.Designer.cs">
+      <DependentUpon>ColorDialogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\ContexMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -377,6 +383,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\CatalogTreeViewForm.resx">
       <DependentUpon>CatalogTreeViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\ColorDialogForm.resx">
+      <DependentUpon>ColorDialogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\ContexMenuForm.resx">
       <DependentUpon>ContexMenuForm.cs</DependentUpon>

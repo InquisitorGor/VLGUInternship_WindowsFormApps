@@ -55,7 +55,8 @@ namespace WindowsFormsApps
             //Application.Run(new InstanceCreatorForm());
             //Application.Run(new HyperLinkForm());
             //Application.Run(new PopupForm());
-            Application.Run(new GetDataForm());
+            //Application.Run(new GetDataForm());
+            Application.Run(new ColorDialogForm());
         }
         
     }
