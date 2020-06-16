@@ -37,7 +37,7 @@ namespace WindowsFormsApps.FourteenthTaskGUI
 
         private void отчетToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Report().ShowDialog();
+            new Report().ShowDialog(); //hi
         }
     }
 }
