@@ -46,7 +46,8 @@ namespace WindowsFormsApps
             //Application.Run(new SeventeenthTask());
             //Application.Run(new ThreadForm());
             //Application.Run(new XMLForm());
-            Application.Run(new MenuForm());
+            //Application.Run(new MenuForm());
+            Application.Run(new ContexMenuForm());
         }
         
     }
