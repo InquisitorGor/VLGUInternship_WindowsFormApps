@@ -51,7 +51,8 @@ namespace WindowsFormsApps
             //Application.Run(new NonstandartForm());
             //Application.Run(new FontListForm());
             //Application.Run(new TreeViewForm());
-            Application.Run(new CatalogTreeViewForm());
+            //Application.Run(new CatalogTreeViewForm());
+            Application.Run(new InstanceCreatorForm());
         }
         
     }
