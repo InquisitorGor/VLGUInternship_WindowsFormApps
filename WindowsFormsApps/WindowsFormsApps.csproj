@@ -248,6 +248,12 @@
     <Compile Include="SeventeenthTaskGUI\SplitForm.Designer.cs">
       <DependentUpon>SplitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\TabControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\TabControlForm.Designer.cs">
+      <DependentUpon>TabControlForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\ThreadForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -383,6 +389,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\SplitForm.resx">
       <DependentUpon>SplitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\TabControlForm.resx">
+      <DependentUpon>TabControlForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\ThreadForm.resx">
       <DependentUpon>ThreadForm.cs</DependentUpon>
