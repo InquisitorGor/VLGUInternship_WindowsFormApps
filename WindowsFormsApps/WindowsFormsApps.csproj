@@ -194,6 +194,12 @@
     <Compile Include="FifthTaskGUI\FifthTask.Designer.cs">
       <DependentUpon>FifthTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\CatalogTreeViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\CatalogTreeViewForm.Designer.cs">
+      <DependentUpon>CatalogTreeViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\ContexMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -332,6 +338,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FifthTaskGUI\FifthTask.resx">
       <DependentUpon>FifthTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\CatalogTreeViewForm.resx">
+      <DependentUpon>CatalogTreeViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\ContexMenuForm.resx">
       <DependentUpon>ContexMenuForm.cs</DependentUpon>
