@@ -206,6 +206,12 @@
     <Compile Include="SeventeenthTaskGUI\MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\NonstandartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\NonstandartForm.Designer.cs">
+      <DependentUpon>NonstandartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\SplitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -320,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\NonstandartForm.resx">
+      <DependentUpon>NonstandartForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\SplitForm.resx">
       <DependentUpon>SplitForm.cs</DependentUpon>
