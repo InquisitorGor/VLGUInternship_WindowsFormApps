@@ -50,11 +50,11 @@ namespace WindowsFormsApps
             //Application.Run(new ContexMenuForm());
             //Application.Run(new NonstandartForm());
             //Application.Run(new FontListForm());
-            //Application.Run(new TreeViewForm());
+            Application.Run(new TreeViewForm());
             //Application.Run(new CatalogTreeViewForm());
             //Application.Run(new InstanceCreatorForm());
             //Application.Run(new HyperLinkForm());
-            Application.Run(new PopupForm());
+            //Application.Run(new PopupForm());
         }
         
     }
