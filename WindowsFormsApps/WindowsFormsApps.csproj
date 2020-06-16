@@ -212,6 +212,12 @@
     <Compile Include="SeventeenthTaskGUI\FontListForm.Designer.cs">
       <DependentUpon>FontListForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\HyperLinkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\HyperLinkForm.Designer.cs">
+      <DependentUpon>HyperLinkForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\InstanceCreatorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -353,6 +359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\FontListForm.resx">
       <DependentUpon>FontListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\HyperLinkForm.resx">
+      <DependentUpon>HyperLinkForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\InstanceCreatorForm.resx">
       <DependentUpon>InstanceCreatorForm.cs</DependentUpon>
