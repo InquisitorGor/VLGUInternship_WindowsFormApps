@@ -236,6 +236,12 @@
     <Compile Include="SeventeenthTaskGUI\NonstandartForm.Designer.cs">
       <DependentUpon>NonstandartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\PopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\PopupForm.Designer.cs">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\SplitForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -371,6 +377,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\NonstandartForm.resx">
       <DependentUpon>NonstandartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\PopupForm.resx">
+      <DependentUpon>PopupForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\SplitForm.resx">
       <DependentUpon>SplitForm.cs</DependentUpon>
