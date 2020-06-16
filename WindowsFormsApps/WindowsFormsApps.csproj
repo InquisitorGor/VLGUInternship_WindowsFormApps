@@ -194,6 +194,12 @@
     <Compile Include="FifthTaskGUI\FifthTask.Designer.cs">
       <DependentUpon>FifthTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\ThreadForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FifthTaskGUI\FifthTask.resx">
       <DependentUpon>FifthTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\ThreadForm.resx">
       <DependentUpon>ThreadForm.cs</DependentUpon>
