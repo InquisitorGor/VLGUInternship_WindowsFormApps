@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApps.SeventeenthTaskGUI
 {
-    public partial class SeventeenthTask : Form
+    public partial class Calculator : Form
     {
-        public SeventeenthTask()
+        public Calculator()
         {
             InitializeComponent();
         }

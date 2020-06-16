@@ -200,11 +200,11 @@
     <Compile Include="SeventeenthTaskGUI\ThreadForm.Designer.cs">
       <DependentUpon>ThreadForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SeventeenthTaskGUI\SeventeenthTask.cs">
+    <Compile Include="SeventeenthTaskGUI\Calculator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SeventeenthTaskGUI\SeventeenthTask.Designer.cs">
-      <DependentUpon>SeventeenthTask.cs</DependentUpon>
+    <Compile Include="SeventeenthTaskGUI\Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
     <Compile Include="SeventhTaskGUI\SevenTask.cs">
       <SubType>Form</SubType>
@@ -294,8 +294,8 @@
     <EmbeddedResource Include="SeventeenthTaskGUI\ThreadForm.resx">
       <DependentUpon>ThreadForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SeventeenthTaskGUI\SeventeenthTask.resx">
-      <DependentUpon>SeventeenthTask.cs</DependentUpon>
+    <EmbeddedResource Include="SeventeenthTaskGUI\Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventhTaskGUI\SevenTask.resx">
       <DependentUpon>SevenTask.cs</DependentUpon>
