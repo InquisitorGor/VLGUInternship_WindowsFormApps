@@ -66,6 +66,17 @@ namespace WindowsFormsApps.SeventeenthTaskGUI
         private void TreeViewForm_Load(object sender, EventArgs e)
         {
             treeView1.SelectedNode = null;
+            foreach (Control c in Controls)
+            {
+                // Если элемент есть потомок класса ButtonBase,
+                if (c is ButtonBase)
+                {
+                    // то применяем стиль Системы.
+                    ((ButtonBase)c).FlatStyle = FlatStyle.System;
+
+                }
+            }
+
         }
 
         private void findButton_Click(object sender, EventArgs e)
