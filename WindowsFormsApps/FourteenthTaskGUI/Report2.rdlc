@@ -697,7 +697,6 @@
                       <FontSize>22pt</FontSize>
                       <FontWeight>Normal</FontWeight>
                       <TextDecoration>None</TextDecoration>
-                      <Color>LimeGreen</Color>
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -708,7 +707,7 @@
             <Top>0.31432cm</Top>
             <Left>5.27844cm</Left>
             <Height>1.22535cm</Height>
-            <Width>10.72854cm</Width>
+            <Width>14.81666cm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -720,21 +719,6 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Image Name="Image1">
-            <Source>Embedded</Source>
-            <Value>unnamed</Value>
-            <Sizing>FitProportional</Sizing>
-            <Top>0.28662cm</Top>
-            <Left>1.12448cm</Left>
-            <Height>1.5cm</Height>
-            <Width>1.5cm</Width>
-            <ZIndex>2</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-            </Style>
-          </Image>
         </ReportItems>
         <Height>1.86458in</Height>
         <Style />
