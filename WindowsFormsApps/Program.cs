@@ -48,7 +48,8 @@ namespace WindowsFormsApps
             //Application.Run(new XMLForm());
             //Application.Run(new MenuForm());
             //Application.Run(new ContexMenuForm());
-            Application.Run(new NonstandartForm());
+            //Application.Run(new NonstandartForm());
+            Application.Run(new FontListForm());
         }
         
     }

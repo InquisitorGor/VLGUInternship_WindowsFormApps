@@ -200,6 +200,12 @@
     <Compile Include="SeventeenthTaskGUI\ContexMenuForm.Designer.cs">
       <DependentUpon>ContexMenuForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\FontListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\FontListForm.Designer.cs">
+      <DependentUpon>FontListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -323,6 +329,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\ContexMenuForm.resx">
       <DependentUpon>ContexMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\FontListForm.resx">
+      <DependentUpon>FontListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
