@@ -43,7 +43,8 @@ namespace WindowsFormsApps
             //Application.Run(new OneDimArray());
             //Application.Run(new ThirteenthTask());
             //Application.Run(new MainForm());
-            Application.Run(new SeventeenthTask());
+            //Application.Run(new SeventeenthTask());
+            Application.Run(new ThreadForm());
         }
         
     }
