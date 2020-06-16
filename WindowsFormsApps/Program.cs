@@ -44,7 +44,8 @@ namespace WindowsFormsApps
             //Application.Run(new ThirteenthTask());
             //Application.Run(new MainForm());
             //Application.Run(new SeventeenthTask());
-            Application.Run(new ThreadForm());
+            //Application.Run(new ThreadForm());
+            Application.Run(new XMLForm());
         }
         
     }

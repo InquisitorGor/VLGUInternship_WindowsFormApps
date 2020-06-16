@@ -206,6 +206,12 @@
     <Compile Include="SeventeenthTaskGUI\Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\XMLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\XMLForm.Designer.cs">
+      <DependentUpon>XMLForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventhTaskGUI\SevenTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -296,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\XMLForm.resx">
+      <DependentUpon>XMLForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventhTaskGUI\SevenTask.resx">
       <DependentUpon>SevenTask.cs</DependentUpon>
@@ -394,6 +403,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
