@@ -212,6 +212,18 @@
     <Compile Include="SeventeenthTaskGUI\FontListForm.Designer.cs">
       <DependentUpon>FontListForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\GetDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\GetDataForm.Designer.cs">
+      <DependentUpon>GetDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\GetDataForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\GetDataForm2.Designer.cs">
+      <DependentUpon>GetDataForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\HyperLinkForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -371,6 +383,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\FontListForm.resx">
       <DependentUpon>FontListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\GetDataForm.resx">
+      <DependentUpon>GetDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\GetDataForm2.resx">
+      <DependentUpon>GetDataForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\HyperLinkForm.resx">
       <DependentUpon>HyperLinkForm.cs</DependentUpon>
