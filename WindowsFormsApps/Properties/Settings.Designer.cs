@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Drawing;
+
 namespace WindowsFormsApps.Properties {
     
     
@@ -22,7 +24,9 @@ namespace WindowsFormsApps.Properties {
                 return defaultInstance;
             }
         }
-        
+        public Color color;
+        public string firstName;
+
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
