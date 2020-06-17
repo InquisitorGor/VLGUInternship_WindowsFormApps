@@ -194,6 +194,12 @@
     <Compile Include="FifthTaskGUI\FifthTask.Designer.cs">
       <DependentUpon>FifthTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\ButtonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\ButtonForm.Designer.cs">
+      <DependentUpon>ButtonForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\CatalogTreeViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -271,6 +277,12 @@
     </Compile>
     <Compile Include="SeventeenthTaskGUI\PopupForm.Designer.cs">
       <DependentUpon>PopupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\SaveDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\SaveDialogForm.Designer.cs">
+      <DependentUpon>SaveDialogForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SeventeenthTaskGUI\SettingsForm.cs">
       <SubType>Form</SubType>
@@ -399,6 +411,9 @@
     <EmbeddedResource Include="FifthTaskGUI\FifthTask.resx">
       <DependentUpon>FifthTask.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\ButtonForm.resx">
+      <DependentUpon>ButtonForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\CatalogTreeViewForm.resx">
       <DependentUpon>CatalogTreeViewForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -437,6 +452,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\PopupForm.resx">
       <DependentUpon>PopupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\SaveDialogForm.resx">
+      <DependentUpon>SaveDialogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>

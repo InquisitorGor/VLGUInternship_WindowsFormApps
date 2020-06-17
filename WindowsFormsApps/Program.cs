@@ -59,7 +59,9 @@ namespace WindowsFormsApps
             //Application.Run(new ColorDialogForm());
             //Application.Run(new SettingsForm());
             //Application.Run(new FontForm());
-            Application.Run(new OpenFileForm());
+            //Application.Run(new OpenFileForm());
+            //Application.Run(new SaveDialogForm());
+            Application.Run(new ButtonForm());
         }
         
     }
