@@ -260,6 +260,12 @@
     <Compile Include="SeventeenthTaskGUI\NonstandartForm.Designer.cs">
       <DependentUpon>NonstandartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeventeenthTaskGUI\OpenFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeventeenthTaskGUI\OpenFileForm.Designer.cs">
+      <DependentUpon>OpenFileForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeventeenthTaskGUI\PopupForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -425,6 +431,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\NonstandartForm.resx">
       <DependentUpon>NonstandartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeventeenthTaskGUI\OpenFileForm.resx">
+      <DependentUpon>OpenFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeventeenthTaskGUI\PopupForm.resx">
       <DependentUpon>PopupForm.cs</DependentUpon>
