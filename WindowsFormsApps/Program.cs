@@ -42,7 +42,7 @@ namespace WindowsFormsApps
             //Application.Run(new TenthTask());
             //Application.Run(new OneDimArray());
             //Application.Run(new ThirteenthTask());
-            //Application.Run(new MainForm());
+            Application.Run(new MainForm());
             //Application.Run(new SeventeenthTask());
             //Application.Run(new ThreadForm());
             //Application.Run(new XMLForm());
@@ -61,7 +61,7 @@ namespace WindowsFormsApps
             //Application.Run(new FontForm());
             //Application.Run(new OpenFileForm());
             //Application.Run(new SaveDialogForm());
-            Application.Run(new ButtonForm());
+            //Application.Run(new ButtonForm());
         }
         
     }

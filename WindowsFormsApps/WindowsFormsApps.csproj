@@ -126,40 +126,40 @@
     <Compile Include="FourteenthTaskGUI\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Priviledges.cs">
+    <Compile Include="FourteenthTaskGUI\14\Priviledges.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Priviledges.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\14\Priviledges.Designer.cs">
       <DependentUpon>Priviledges.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\QueryForm.cs">
+    <Compile Include="FourteenthTaskGUI\15\QueryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\QueryForm.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\15\QueryForm.Designer.cs">
       <DependentUpon>QueryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Report.cs">
+    <Compile Include="FourteenthTaskGUI\16\Report.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Report.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\16\Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Resettlement.cs">
+    <Compile Include="FourteenthTaskGUI\14\Resettlement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Resettlement.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\14\Resettlement.Designer.cs">
       <DependentUpon>Resettlement.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Rooms.cs">
+    <Compile Include="FourteenthTaskGUI\14\Rooms.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Rooms.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\14\Rooms.Designer.cs">
       <DependentUpon>Rooms.cs</DependentUpon>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Students.cs">
+    <Compile Include="FourteenthTaskGUI\14\Students.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FourteenthTaskGUI\Students.Designer.cs">
+    <Compile Include="FourteenthTaskGUI\14\Students.Designer.cs">
       <DependentUpon>Students.cs</DependentUpon>
     </Compile>
     <Compile Include="FourthTaskGUI\FourthTask.cs">
@@ -368,23 +368,23 @@
     <EmbeddedResource Include="FourteenthTaskGUI\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\Priviledges.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\14\Priviledges.resx">
       <DependentUpon>Priviledges.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\QueryForm.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\15\QueryForm.resx">
       <DependentUpon>QueryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\Report.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\16\Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\Report2.rdlc" />
-    <EmbeddedResource Include="FourteenthTaskGUI\Resettlement.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\16\Report2.rdlc" />
+    <EmbeddedResource Include="FourteenthTaskGUI\14\Resettlement.resx">
       <DependentUpon>Resettlement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\Rooms.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\14\Rooms.resx">
       <DependentUpon>Rooms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FourteenthTaskGUI\Students.resx">
+    <EmbeddedResource Include="FourteenthTaskGUI\14\Students.resx">
       <DependentUpon>Students.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FourthTaskGUI\FourthTask.resx">
@@ -578,5 +578,6 @@
   <ItemGroup>
     <Content Include="1.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
